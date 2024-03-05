@@ -1,0 +1,7 @@
+.layout {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 250px 1fr;
+  position: relative;
+  outline: 1px solid red;
+}

@@ -1,0 +1,12 @@
+.store-preview {
+  padding-block: 2rem;
+}
+
+.store-preview-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  img {
+    width: 40rem;
+  }
+}

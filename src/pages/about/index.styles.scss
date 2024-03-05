@@ -1,0 +1,21 @@
+.about {
+  padding-block: 5rem;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: space-around;
+
+  & > div {
+    width: 100%;
+    // outline: 1px solid red;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+    img {
+      height: 30rem;
+    }
+  }
+}

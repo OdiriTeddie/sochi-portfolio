@@ -1,0 +1,30 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  color: black;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-inline: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  .site-logo {
+    width: 5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.nav {
+  display: flex;
+  margin-right: auto;
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
