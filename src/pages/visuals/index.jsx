@@ -6,7 +6,7 @@ import Sochi2 from "../../assets/images/about-img.jpg";
 
 export default function Visuals() {
   return (
-    <section className="container">
+    <section className="container visuals">
       <h2>Visuals</h2>
       <div className="visual-wrapper">
         <img src={Sochi1} alt="" />

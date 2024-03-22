@@ -1,5 +1,11 @@
 .store-preview {
   padding-block: 2rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
 }
 
 .store-preview-images {
@@ -9,4 +15,15 @@
   img {
     width: 40rem;
   }
+}
+
+.see-more {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.see-more:hover,
+.see-more:focus {
+  text-decoration: underline;
 }

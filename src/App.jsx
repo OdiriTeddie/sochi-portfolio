@@ -6,11 +6,11 @@ import { Footer } from "./layout";
 
 function App() {
   return (
-    <div className="main-body">
+    <section className="main-body">
       <Hero />
       <StorePreview />
       <Footer />
-    </div>
+    </section>
   );
 }
 

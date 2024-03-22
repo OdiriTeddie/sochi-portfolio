@@ -7,6 +7,7 @@ import Root from "./routes/root.jsx";
 import About from "./pages/about/index.jsx";
 import Visuals from "./pages/visuals/index.jsx";
 import Store from "./pages/store/index.jsx";
+import SingleProduct from "./pages/single-product/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +19,12 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/store",
+        path: "/collections",
         element: <Store />,
+      },
+      {
+        path: "/collections/:productName",
+        element: <SingleProduct />,
       },
       {
         path: "/visuals",

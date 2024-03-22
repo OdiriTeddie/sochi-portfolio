@@ -8,7 +8,9 @@ export const Footer = () => {
           <label htmlFor="email">Subscribe to our mailing list</label>
           <input type="text" />
 
-          <button type="submit">Subscribe</button>
+          <button type="submit" className="subscribe-btn">
+            Subscribe
+          </button>
         </form>
         <div className="footer-details">
           <ul className="footer-menu" role="list">

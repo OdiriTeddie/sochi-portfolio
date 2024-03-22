@@ -2,8 +2,10 @@
   background-color: #fff;
   padding-block: 2rem;
   .container {
+    border-top: 1px solid #f2f2f2;
     display: flex;
     flex-direction: column;
+    padding-block: 2rem;
   }
 
   .footer-menu {
@@ -41,9 +43,27 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 5px;
+  gap: 8px;
+
+  label {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
 
   input {
     padding: 0.5rem;
+    width: 15rem;
   }
+}
+
+.subscribe-btn {
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  padding-inline: 2.3em;
+  padding-block: 1em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }

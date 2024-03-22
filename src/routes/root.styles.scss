@@ -1,7 +1,17 @@
 .layout {
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: 250px 1fr;
+  display: flex;
+  // min-height: 100svh;
+  // grid-template-columns: 240px 1fr;
   position: relative;
-  outline: 1px solid red;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+
+  @media (min-with: 765px) {
+    // transform: translateX(250px);
+    flex: 1;
+  }
 }

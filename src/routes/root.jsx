@@ -7,7 +7,7 @@ export default function Root() {
   return (
     <div className="layout">
       <Header />
-      <main>
+      <main className="main">
         <Outlet />
       </main>
     </div>
