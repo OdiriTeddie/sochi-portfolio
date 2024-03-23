@@ -8,6 +8,7 @@ import About from "./pages/about/index.jsx";
 import Visuals from "./pages/visuals/index.jsx";
 import Store from "./pages/store/index.jsx";
 import SingleProduct from "./pages/single-product/index.jsx";
+import AppProvider from "./utils/context.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AppProvider>
+      <RouterProvider router={router} />
+    </AppProvider>
   </React.StrictMode>
 );
