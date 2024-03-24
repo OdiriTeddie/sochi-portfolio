@@ -8,7 +8,7 @@ export const MobileHeader = () => {
     <header className={`mobile-header ${activeMobile ? "active" : ""}`}>
       <div className="header-logo">
         <Link to="/">
-          <img src={Logo} className="site-logo" />
+          <img src={Logo} className="site-logo" onClick={handleMobileMenu} />
         </Link>
       </div>
       <nav className="mobile-nav">

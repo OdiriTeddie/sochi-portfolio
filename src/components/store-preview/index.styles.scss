@@ -10,10 +10,10 @@
 
 .store-preview-images {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 2rem;
   img {
-    width: 40rem;
+    width: 100%;
   }
 }
 
@@ -26,4 +26,14 @@
 .see-more:hover,
 .see-more:focus {
   text-decoration: underline;
+}
+
+@media (min-width: 765px) {
+  .store-preview-images {
+    grid-template-columns: repeat(2, 1fr);
+
+    img {
+      width: 40rem;
+    }
+  }
 }

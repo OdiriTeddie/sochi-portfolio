@@ -16,7 +16,7 @@ const AppProvider = ({ children }) => {
     return () => {
       document.body.classList.remove("active");
     };
-  });
+  }, [activeMobile]);
   return (
     <GlobalContext.Provider value={{ activeMobile, handleMobileMenu }}>
       {children}

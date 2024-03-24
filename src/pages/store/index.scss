@@ -1,6 +1,6 @@
 .store-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   column-gap: 2.5rem;
   row-gap: 3rem;
 }
@@ -17,5 +17,13 @@
 
   p {
     font-style: italic;
+  }
+}
+
+@media (min-width: 765px) {
+  .store-list {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.5rem;
+    row-gap: 3rem;
   }
 }

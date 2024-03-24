@@ -1,8 +1,18 @@
 .visuals {
   padding-block: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h2 {
+    text-transform: uppercase;
+  }
 }
 
 .visual-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  column-gap: 2rem;
 }

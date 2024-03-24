@@ -1,4 +1,4 @@
-import HeroImage from "../../assets/images/hero-img.jpg";
+import HeroImage from "../../assets/images/hero-img.webp";
 import "./index.styles.scss";
 
 export const Hero = () => {

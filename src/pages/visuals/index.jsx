@@ -2,7 +2,7 @@ import "./index.styles.scss";
 import Sochi1 from "../../assets/images/sochi1.jpg";
 import Sochi3 from "../../assets/images/sochi3.jpg";
 import Sochi5 from "../../assets/images/sochi5.jpg";
-import Sochi2 from "../../assets/images/about-img.jpg";
+import Sochi2 from "../../assets/images/about-img.webp";
 
 export default function Visuals() {
   return (
